@@ -15,7 +15,7 @@ Figure 1: A glossed sentence in the Gitksan language
 
 As demonstrated in Figure 1, bound morphemes like *-hl* are glossed using morphological tags like CN (common noun connective) and word stems like *yukw* are glossed with a translation (here, English ‘do’). 
 
-Participants are encouraged to draw inspiration from a number of existing glossing systems: Barriga et al. (2021), Macmillan-Major (2020), Moeller and Hulden (2018), Palmer et al. (2009), Samardžić et al. (2015) and Zhao et al. (2020)
+Participants are encouraged to draw inspiration from existing glossing systems: Barriga et al. (2021), Macmillan-Major (2020), Moeller and Hulden (2018), Palmer et al. (2009), Samardžić et al. (2015) and Zhao et al. (2020)
 
 ## Sign up
 
