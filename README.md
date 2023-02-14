@@ -165,12 +165,12 @@ In early March, we will release baseline systems and results for both tracks. Fo
 
 ## Organizers
 
-Michael Ginn (University of Colorado)
-Mans Hulden (University of Colorado)
-Sarah Moeller (University of Florida)
-Alexis Palmer (University of Colorado)
-Miikka Silfverberg (University of British Columbia)
-Anna Stacey (University of British Columbia)
+* Michael Ginn (University of Colorado)
+* Mans Hulden (University of Colorado)
+* Sarah Moeller (University of Florida)
+* Alexis Palmer (University of Colorado)
+* Miikka Silfverberg (University of British Columbia)
+* Anna Stacey (University of British Columbia)
 
 ## Contact
 
