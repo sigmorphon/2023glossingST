@@ -1,4 +1,4 @@
-# First SIGMORPHON Shared Task on Interlinear glossing 
+# First SIGMORPHON Shared Task on Interlinear Glossing 
 
 ## Overview
 
