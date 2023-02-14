@@ -37,11 +37,11 @@ The following languages are released as development languages. Additional surpri
 
 | Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
 |----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
-| Arapaho (arp)  |  39,502     |  4,938    |    TBA     |                       |           | X  (eng)      |
+| Arapaho (arp)  |  39,501     |  4,938    |    TBA     |                       |           | X  (eng)      |
 | Gitksan (git)  |  31         |  42       |    TBA     |         X             |           | X  (eng)      |
 | Lezgi   (lez)  |  701        |  88       |    TBA     |         X             |           | X  (eng)      |
-| Nyangbo (nyb)  |  2,101      |  263      |    TBA     |         X             |           |               |
-| Tsez    (bbo)  |  3,559      |  445      |    TBA     |         X             |           | X  (eng)      |
+| Nyangbo (nyb)  |  2,100      |  263      |    TBA     |         X             |           |               |
+| Tsez    (bbo)  |  3,558      |  445      |    TBA     |         X             |           | X  (eng)      |
 | Uspanteko (usp)|  9,774      |  232      |    TBA     |         X             |    X      | X  (spa)      |
 
 Note that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
