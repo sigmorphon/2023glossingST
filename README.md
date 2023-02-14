@@ -183,13 +183,14 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * Feb 13: Release of training and development data for development languages
 * March 6: Release of official evaluation script, baseline systems and baseline results
 * April 1: Release of surprise language training and development data
-* April 24-26: Release of test data for all languages. Contestants run their systems on the test data.
+* April 24: Release of test data for all languages
+* April 24-26: Contestants run their systems on the test data
 * April 27: Test predictions should be submitted to organizers
 * May 1: Results are announced
 * May 15: System description paper submission deadline
 * May 15-25: Review
 * May 25: Notification of paper acceptance
-* May 30: Camera ready deadline for system description papers.
+* May 30: Camera ready deadline for system description papers
 
 ## Licensing
 
