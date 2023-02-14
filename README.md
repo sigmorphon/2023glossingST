@@ -1,4 +1,4 @@
-# First SIGMORPHON Shared Task on Interlinear Glossing 
+# SIGMORPHON 2023 Shared Task on Interlinear Glossing 
 
 ## Overview
 
