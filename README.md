@@ -1,4 +1,4 @@
-# First SIGMORPHON Shared Task on Interlinear glossing 
+# SIGMORPHON 2023 Shared Task on Interlinear Glossing 
 
 ## Overview
 
@@ -15,7 +15,7 @@ Figure 1: A glossed sentence in the Gitksan language
 
 As demonstrated in Figure 1, bound morphemes like *-hl* are glossed using morphological tags like CN (common noun connective) and word stems like *yukw* are glossed with a translation (here, English ‘do’). 
 
-Participants are encouraged to draw inspiration from a number of existing glossing systems: Barriga et al. (2021), Macmillan-Major (2020), Moeller and Hulden (2018), Palmer et al. (2009), Samardžić et al. (2015) and Zhao et al. (2020)
+Participants are encouraged to draw inspiration from existing glossing systems: Barriga et al. (2021), Macmillan-Major (2020), Moeller and Hulden (2018), Palmer et al. (2009), Samardžić et al. (2015) and Zhao et al. (2020)
 
 ## Sign up
 
@@ -37,11 +37,11 @@ The following languages are released as development languages. Additional surpri
 
 | Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
 |----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
-| Arapaho (arp)  |  39,502     |  4,938    |    TBA     |                       |           | X  (eng)      |
+| Arapaho (arp)  |  39,501     |  4,938    |    TBA     |                       |           | X  (eng)      |
 | Gitksan (git)  |  31         |  42       |    TBA     |         X             |           | X  (eng)      |
 | Lezgi   (lez)  |  701        |  88       |    TBA     |         X             |           | X  (eng)      |
-| Nyangbo (nyb)  |  2,101      |  263      |    TBA     |         X             |           |               |
-| Tsez    (bbo)  |  3,559      |  445      |    TBA     |         X             |           | X  (eng)      |
+| Nyangbo (nyb)  |  2,100      |  263      |    TBA     |         X             |           |               |
+| Tsez    (bbo)  |  3,558      |  445      |    TBA     |         X             |           | X  (eng)      |
 | Uspanteko (usp)|  9,774      |  232      |    TBA     |         X             |    X      | X  (spa)      |
 
 Note that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
@@ -165,12 +165,13 @@ In early March, we will release baseline systems and results for both tracks. Fo
 
 ## Organizers
 
-Michael Ginn (University of Colorado)
-Mans Hulden (University of Colorado)
-Sarah Moeller (University of Florida)
-Alexis Palmer (University of Colorado)
-Miikka Silfverberg (University of British Columbia)
-Anna Stacey (University of British Columbia)
+* Michael Ginn (University of Colorado)
+* Mans Hulden (University of Colorado)
+* Sarah Moeller (University of Florida)
+* Garrett Nicolai (University of British Columbia)
+* Alexis Palmer (University of Colorado)
+* Miikka Silfverberg (University of British Columbia)
+* Anna Stacey (University of British Columbia)
 
 ## Contact
 
@@ -183,13 +184,14 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * Feb 13: Release of training and development data for development languages
 * March 6: Release of official evaluation script, baseline systems and baseline results
 * April 1: Release of surprise language training and development data
-* April 24-26: Release of test data for all languages. Contestants run their systems on the test data.
+* April 24: Release of test data for all languages
+* April 24-26: Contestants run their systems on the test data
 * April 27: Test predictions should be submitted to organizers
 * May 1: Results are announced
 * May 15: System description paper submission deadline
 * May 15-25: Review
 * May 25: Notification of paper acceptance
-* May 30: Camera ready deadline for system description papers.
+* May 30: Camera ready deadline for system description papers
 
 ## Licensing
 
