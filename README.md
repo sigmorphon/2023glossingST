@@ -168,6 +168,7 @@ In early March, we will release baseline systems and results for both tracks. Fo
 * Michael Ginn (University of Colorado)
 * Mans Hulden (University of Colorado)
 * Sarah Moeller (University of Florida)
+* Garrett Nicolai (University of British Columbia)
 * Alexis Palmer (University of Colorado)
 * Miikka Silfverberg (University of British Columbia)
 * Anna Stacey (University of British Columbia)
