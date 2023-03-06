@@ -1,0 +1,5 @@
+datasets==2.7.1
+torch==1.13.1
+torchtext==0.14.1
+transformers==4.21.3
+wandb
