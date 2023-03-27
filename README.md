@@ -199,20 +199,20 @@ All baseline and evaluation code is released under the Apache 2.0 license. Each 
 
 ## References
 
-Baldridge, J., & Palmer, A. (2009, August). How well does active learning actually work? Time-based evaluation of cost-reduction strategies for language documentation. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing (pp. 296-305).
+Baldridge, J., & Palmer, A. (2009, August). [How well does active learning actually work? Time-based evaluation of cost-reduction strategies for language documentation](https://aclanthology.org/D09-1031/). In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing (pp. 296-305).
 
-Barriga, D., Mijangos, V., & Gutierrez-Vasques, X. (2021). Automatic Interlinear Glossing for Otomi language. NAACL-HLT 2021, 34.
+Barriga, D., Mijangos, V., & Gutierrez-Vasques, X. (2021). [Automatic Interlinear Glossing for Otomi language](https://aclanthology.org/2021.americasnlp-1.5/). NAACL-HLT 2021, 34.
 
-Edwards, B., Larochelle, M., Mitchell, S., Van Eijk, J., Davis, H., Lyon, J. and Whitley, R.S. (2017). Sqwéqwel’s Nelh Skelkekla7lhk{\'a}lha Tales of Our Elders. University of British Columbia Occasional Papers in Linguistics
+Edwards, B., Larochelle, M., Mitchell, S., Van Eijk, J., Davis, H., Lyon, J. and Whitley, R.S. (2017). [Sqwéqwel’s Nelh Skelkekla7lhk{\'a}lha Tales of Our Elders](https://lingpapers.sites.olt.ubc.ca/pnwll-volumes/sqweqwels-nelh-skelkekla7lhkalha-tales-of-our-elders/). University of British Columbia Occasional Papers in Linguistics
 
-Lewis, W. D., & Xia, F. (2010). Developing ODIN: A multilingual repository of annotated language data for hundreds of the world's languages. Literary and Linguistic Computing, 25(3), 303-319.
+Lewis, W. D., & Xia, F. (2010). [Developing ODIN: A multilingual repository of annotated language data for hundreds of the world's languages](https://academic.oup.com/dsh/article-abstract/25/3/303/971097?redirectedFrom=fulltext). Literary and Linguistic Computing, 25(3), 303-319.
 
-McMillan-Major, A. (2020). Automating gloss generation in interlinear glossed text. Proceedings of the Society for Computation in Linguistics, 3(1), 338-349.
+McMillan-Major, A. (2020). [Automating gloss generation in interlinear glossed text](https://aclanthology.org/2020.scil-1.42/). Proceedings of the Society for Computation in Linguistics, 3(1), 338-349.
 
-Moeller, S., & Hulden, M. (2018, August). Automatic glossing in a low-resource setting for language documentation. In Proceedings of the Workshop on Computational Modeling of Polysynthetic Languages (pp. 84-93).
+Moeller, S., & Hulden, M. (2018, August). [Automatic glossing in a low-resource setting for language documentation](https://aclanthology.org/W18-4809/). In Proceedings of the Workshop on Computational Modeling of Polysynthetic Languages (pp. 84-93).
 
-Palmer, A., Moon, T., & Baldridge, J. (2009, June). Evaluating automation strategies in language documentation. In Proceedings of the NAACL HLT 2009 Workshop on Active Learning for Natural Language Processing (pp. 36-44).
+Palmer, A., Moon, T., & Baldridge, J. (2009, June). [Evaluating automation strategies in language documentation](https://aclanthology.org/W09-1905/). In Proceedings of the NAACL HLT 2009 Workshop on Active Learning for Natural Language Processing (pp. 36-44).
 
-Zhao, X., Ozaki, S., Anastasopoulos, A., Neubig, G., & Levin, L. (2020, December). Automatic interlinear glossing for under-resourced languages leveraging translations. In Proceedings of the 28th International Conference on Computational Linguistics (pp. 5397-5408).
+Zhao, X., Ozaki, S., Anastasopoulos, A., Neubig, G., & Levin, L. (2020, December). [Automatic interlinear glossing for under-resourced languages leveraging translations](https://aclanthology.org/2020.coling-main.471/). In Proceedings of the 28th International Conference on Computational Linguistics (pp. 5397-5408).
 
-Samardžić, T., Schikowski, R., & Stoll, S. (2015). Automatic interlinear glossing as two-level sequence classification.
+Samardžić, T., Schikowski, R., & Stoll, S. (2015). [Automatic interlinear glossing as two-level sequence classification](https://aclanthology.org/W15-3710/).
