@@ -183,7 +183,7 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 
 * Feb 13: Release of training and development data for development languages
 * March 6: Release of official evaluation script, baseline systems and baseline results
-* April 1: Release of surprise language training and development data
+* ~~April 1~~ April 8: Release of surprise language training and development data
 * April 24: Release of test data for all languages
 * April 24-26: Contestants run their systems on the test data
 * April 27: Test predictions should be submitted to organizers
