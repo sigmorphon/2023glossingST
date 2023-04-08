@@ -44,7 +44,13 @@ The following languages are released as development languages. Additional surpri
 | Tsez    (bbo)  |  3,558      |  445      |    TBA     |         X             |           | X  (eng)      |
 | Uspanteko (usp)|  9,774      |  232      |    TBA     |         X             |    X      | X  (spa)      |
 
-Note that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
+Surprise languages:
+
+| Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
+|----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
+| Natugu (ntu)   | 791         | 99        |    TBA     |         X             |           | X (eng)       |
+
+Note, that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
 
 ### Format
 
