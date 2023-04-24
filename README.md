@@ -44,7 +44,13 @@ The following languages are released as development languages. Additional surpri
 | Tsez    (bbo)  |  3,558      |  445      |    TBA     |         X             |           | X  (eng)      |
 | Uspanteko (usp)|  9,774      |  232      |    TBA     |         X             |    X      | X  (spa)      |
 
-Note that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
+Surprise languages:
+
+| Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
+|----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
+| Natugu (ntu)   | 791         | 99        |    TBA     |         X             |           | X (eng)       |
+
+Note, that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
 
 ### Format
 
@@ -147,7 +153,7 @@ At the end of April, we will release the test input data in the following format
 \l "His wife and children live at Razhbadin's home", answered the old man.
 ```
 
-Participants use their glossing system to predict glosses for the tokens in the test data and submit their predictions to the shared task organizers (EMAIL address) in the following format:
+Participants use their glossing system to predict glosses for the tokens in the test data and submit their predictions to the shared task organizers (glossingsubmissions2023@gmail.com) in the following format:
 
 ```
 \t ʕAt’idä nesiq kinaw raqru łinałäy esin.
@@ -158,6 +164,10 @@ Participants use their glossing system to predict glosses for the tokens in the 
 \g Razhbadin-GEN2 home wife-and children-and be-QUOT answer give-PST.UNW old-DEF man-ERG
 \l "His wife and children live at Razhbadin's home", answered the old man.
 ```
+
+Please save your submission files as `<LAN>-test-track<K>-covered.sys`, where `<LAN>` is the language code and `<K>` is the track number, for example, `arp-test-track1-covered.sys`. 
+
+Please zip all of your submission files into an archive `<TEAM_NAME>_<N>.zip`, where `<TEAM_NAME>` is your team name and `<N>` is an index (1, 2, 3, ...) which is used to keep track of the submission number in case you want to make multiple submissions, for example, `StarfleetAcademyTeam_1.zip` and `StarfleetAcademyTeam_2.zip`.
 
 ## Baseline
 
@@ -185,13 +195,13 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * March 6: Release of official evaluation script, baseline systems and baseline results
 * ~~April 1~~ April 8: Release of surprise language training and development data
 * April 24: Release of test data for all languages
-* April 24-26: Contestants run their systems on the test data
-* April 27: Test predictions should be submitted to organizers
-* May 1: Results are announced
-* May 15: System description paper submission deadline
-* May 15-25: Review
-* May 25: Notification of paper acceptance
-* May 30: Camera ready deadline for system description papers
+* ~~April 24-26~~ April 24-May 3: Contestants run their systems on the test data
+* ~~April 27~~ May 4: Test predictions should be submitted to organizers
+* ~~May 1~~ May 7: Results are announced
+* ~~May 15~~ May 22: System description paper submission deadline
+* ~~May 15-25~~ May 22-June 1: Review
+* ~~May 25~~ June 1: Notification of paper acceptance
+* ~~May 30~~ June 7: Camera ready deadline for system description papers
 
 ## Licensing
 
