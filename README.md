@@ -165,7 +165,9 @@ Participants use their glossing system to predict glosses for the tokens in the 
 \l "His wife and children live at Razhbadin's home", answered the old man.
 ```
 
-Please save your submission files as `<LAN>-test-track<K>-covered.sys`, where `<LAN>` is the language code and `<K>` is the track number, for example, `arp-test-track1-covered.sys`. 
+~~Please save your submission files as `<LAN>-test-track<K>-covered.sys`, where `<LAN>` is the language code and `<K>` is the track number, for example, `arp-test-track1-covered.sys`.~~
+
+Please save your submission files as `<LAN>-test-track<K>-covered.txt`, where `<LAN>` is the language code and `<K>` is the track number, for example, `arp-test-track1-covered.txt` (we changed the `.sys` suffix to `.txt` for the submission files because `.sys` can cause problems in Gmail).
 
 Please zip all of your submission files into an archive `<TEAM_NAME>_<N>.zip`, where `<TEAM_NAME>` is your team name and `<N>` is an index (1, 2, 3, ...) which is used to keep track of the submission number in case you want to make multiple submissions, for example, `StarfleetAcademyTeam_1.zip` and `StarfleetAcademyTeam_2.zip`.
 
