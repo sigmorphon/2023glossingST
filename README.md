@@ -199,7 +199,7 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * April 24: Release of test data for all languages
 * ~~April 24-26~~ April 24-May 3: Contestants run their systems on the test data
 * ~~April 27~~ May 4: Test predictions should be submitted to organizers
-* ~~May 1 May 7~~ May 8: Results are announced
+* ~~May 1 May 7 May 8~~ May 9: Results are announced
 * ~~May 15~~ May 22: System description paper submission deadline
 * ~~May 15-25~~ May 22-June 1: Review
 * ~~May 25~~ June 1: Notification of paper acceptance
