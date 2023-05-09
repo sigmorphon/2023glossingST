@@ -139,6 +139,8 @@ We additionally provide system input files (e.g. `data/ddo-dev-track2-covered`),
 
 The main evaluation metric for the competition is token accuracy. Systems are evaluated w.r.t. generation of fully glossed tokens (*chiens -> dog-PL*). We will also separately evaluate glossing accuracy on bound morphemes like *PL* and free morphemes, i.e. stems, like *dog*.
 
+The results have been published [here](https://github.com/sigmorphon/2023glossingST/blob/main/results.md)
+
 ## Submission
 
 At the end of April, we will release the test input data in the following format (for track 1 in the example):
