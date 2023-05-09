@@ -139,6 +139,10 @@ We additionally provide system input files (e.g. `data/ddo-dev-track2-covered`),
 
 The main evaluation metric for the competition is token accuracy. Systems are evaluated w.r.t. generation of fully glossed tokens (*chiens -> dog-PL*). We will also separately evaluate glossing accuracy on bound morphemes like *PL* and free morphemes, i.e. stems, like *dog*.
 
+## Results
+
+The results have been published [here](https://github.com/sigmorphon/2023glossingST/blob/main/results.md)
+
 ## Submission
 
 At the end of April, we will release the test input data in the following format (for track 1 in the example):
@@ -199,7 +203,7 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * April 24: Release of test data for all languages
 * ~~April 24-26~~ April 24-May 3: Contestants run their systems on the test data
 * ~~April 27~~ May 4: Test predictions should be submitted to organizers
-* ~~May 1 May 7~~ May 8: Results are announced
+* ~~May 1 May 7~~ May 8: Results are announced (Baseline results will be available on May 9)
 * ~~May 15~~ May 22: System description paper submission deadline
 * ~~May 15-25~~ May 22-June 1: Review
 * ~~May 25~~ June 1: Notification of paper acceptance
