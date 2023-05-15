@@ -181,7 +181,7 @@ In early March, we will release baseline systems and results for both tracks. Fo
 
 ## System Description Paper
 
-Please prepare a 4-8 page paper describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). In addition to the official shared task results for your system, you are welcome to include additional experimental results in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution. 
+Please prepare a 4-8 page paper (excluding references and appendices) describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). In addition to the official shared task results for your system, you are welcome to include additional experimental results in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution. 
 
 Submissions will be thoroughly reviewed. Note that there is no requirement for anonymity. We aim to accept all submissions and may provide coaching for writing of the final camera-ready submission if needed. 
 
