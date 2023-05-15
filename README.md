@@ -179,7 +179,7 @@ Please zip all of your submission files into an archive `<TEAM_NAME>_<N>.zip`, w
 
 In early March, we will release baseline systems and results for both tracks. For the closed track (track 1), we will provide a transformer-based neural baseline system. For the open track (track 2), we will provide CRF-based and neural transformer baseline systems.  
 
-## Paper
+## System Description Paper
 
 Please prepare a 4-8 page paper describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). You are welcome to include additional experiments in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution. 
 
