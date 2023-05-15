@@ -183,7 +183,7 @@ In early March, we will release baseline systems and results for both tracks. Fo
 
 Please prepare a 4-8 page paper describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). You are welcome to include additional experiments in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution. 
 
-Submssions will be reviewed by the shared task organizers. Note that there is no requirement for anonymity. We aim to accept all submissions and will provide coaching for preparation of the final camera-ready submssion if needed. Submit your description papers to [Softconf](https://softconf.com/acl2023/sigmorphon/track/Glossing_ST/) by May 22, AoE.  
+Submssions will be reviewed by the shared task organizers. Note that there is no requirement for anonymity. We aim to accept all submissions and will provide coaching for preparation of the final camera-ready submssion if needed. Submit your description papers to [Softconf](https://softconf.com/acl2023/sigmorphon/) by May 22, 2023, AoE.  
 
 ## Organizers
 
