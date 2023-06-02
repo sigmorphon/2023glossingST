@@ -214,8 +214,8 @@ Please also subscribe to the shared task newsgroup: https://groups.google.com/g/
 * ~~May 1 May 7~~ May 8: Results are announced (Baseline results will be available on May 9)
 * ~~May 15~~ May 22: System description paper submission deadline
 * ~~May 15-25~~ May 22-June 1: Review
-* ~~May 25~~ June 1: Notification of paper acceptance
-* ~~May 30~~ June 7: Camera ready deadline for system description papers
+* ~~May 25 June 1~~ June 2: Notification of paper acceptance
+* ~~May 30 June 7~~ June 8: Camera ready deadline for system description papers
 
 ## Licensing
 
