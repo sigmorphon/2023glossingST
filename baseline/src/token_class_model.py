@@ -98,6 +98,7 @@ languages = {
 @click.option("--data_path", help="The dataset to run predictions on. Only valid in predict mode.", type=click.Path(exists=True))
 def main(mode: str, lang: str, track: str, pretrained_path: str, encoder_path: str, data_path: str):
     if mode == 'train':
+        # Change entity name to your wandb username
         wandb.init(project="igt-generation", entity="michael-ginn")
 
     MODEL_INPUT_LENGTH = 512

@@ -1,6 +1,7 @@
 # Automatic-IGT-Glossing
 
 Train model:
+- First, change the Weights and Biases entity name in token_class_model.py
 
 ```shell
 python3 token_class_model.py train --lang ddo --track open
@@ -9,13 +10,13 @@ python3 token_class_model.py train --lang ddo --track open
 Make predictions:
 
 ```shell
-python3 token_class_model.py predict --lang ddo --track open --pretrained_path ./output --data_path ../../data/Tsez/ddo-dev-track1-covered
+python3 token_class_model.py predict --lang ddo --track open --pretrained_path ./output --encoder_path ./encoder_data.pkl --data_path ../../data/Tsez/ddo-dev-track2-covered
 ```
 
 Eval predictions:
 
 ```shell
-python3 eval.py --pred ./predictions --gold ../../data/Tsez/ddo-train-track1-uncovered
+python3 eval.py --pred ddo_output_preds --gold ../../data/Tsez/ddo-dev-track2-uncovered
 ```
 
 ## Model design
