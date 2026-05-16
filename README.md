@@ -1,8 +1,11 @@
-# SIGMORPHON 2023 Shared Task on Interlinear Glossing 
+# SIGMORPHON 2023 Shared Task on Interlinear Glossing
+
+> [!IMPORTANT]
+> The data in `data_v2` was de-duped from the original shared task data on **2026-05-16**, and should be used going forward. However, research prior to this change, such as the original shared task results, used the data in `data_v1`, and thus is not a one-to-one comparison.
 
 ## Overview
 
-Interlinear glossed text is a major annotated datatype produced in the course of linguistic fieldwork. For many low-resource languages, this is the only form of annotated data that is available for NLP work. Creation of glossed text is, however, a laborious endeavour and this shared task investigates methods to (fully or partially) automate the process. 
+Interlinear glossed text is a major annotated datatype produced in the course of linguistic fieldwork. For many low-resource languages, this is the only form of annotated data that is available for NLP work. Creation of glossed text is, however, a laborious endeavour and this shared task investigates methods to (fully or partially) automate the process.
 
 Participants build systems which generate morpheme-level grammatical descriptions of input sentences following the [Leipzig glossing conventions](https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf). The input to the glossing system consists of (1) a sentence in the target language and (2) a translation of the target sentence into a language of wider communication, often English (plus some additional information which is discussed below). The output is an interlinear gloss:
 
@@ -11,9 +14,9 @@ Participants build systems which generate morpheme-level grammatical description
 <tr><td>2. Ouput (gloss):</td><td> CCNJ </td><td>VER </td><td>continually-MANR</td><td> do-CN</td><td> surveyors</td></tr>
 <tr><td>3. Input2 (translation):</td><td colspan="5"> ‘But the surveyors continued.’</td></tr>
 </table>
-Figure 1: A glossed sentence in the Gitksan language 
+Figure 1: A glossed sentence in the Gitksan language
 
-As demonstrated in Figure 1, bound morphemes like *-hl* are glossed using morphological tags like CN (common noun connective) and word stems like *yukw* are glossed with a translation (here, English ‘do’). 
+As demonstrated in Figure 1, bound morphemes like _-hl_ are glossed using morphological tags like CN (common noun connective) and word stems like _yukw_ are glossed with a translation (here, English ‘do’).
 
 Participants are encouraged to draw inspiration from existing glossing systems: Barriga et al. (2021), Macmillan-Major (2020), Moeller and Hulden (2018), Palmer et al. (2009), Samardžić et al. (2015) and Zhao et al. (2020)
 
@@ -23,9 +26,9 @@ Sign up for the shared task by filling in the [registration form](https://docs.g
 
 ## Tracks
 
-There are two tracks in the shared task. In the closed track (`track1`), systems are trained solely on input sentences and glosses. In the open track (`track2`), systems may additionally make use of morphological segmentations during training time. In the open track, participants may additionally use any data and resources (including dictionaries and pretrained language models). The only exception is additional interlinear glossed data. For the open track, we also provide some extra information like POS tags for a subset of the languages. 
+There are two tracks in the shared task. In the closed track (`track1`), systems are trained solely on input sentences and glosses. In the open track (`track2`), systems may additionally make use of morphological segmentations during training time. In the open track, participants may additionally use any data and resources (including dictionaries and pretrained language models). The only exception is additional interlinear glossed data. For the open track, we also provide some extra information like POS tags for a subset of the languages.
 
-If you are at all unsure whether some data is allowed, **we recommend that you contact the organizers**. 
+If you are at all unsure whether some data is allowed, **we recommend that you contact the organizers**.
 
 ## Data
 
@@ -35,20 +38,20 @@ Some of our datasets were collected and annotated by the shared task organizers.
 
 The following languages are released as development languages. Additional surprise language data will be released later. for some of the languages, we additionally release morphological segmentations, POS tags and translations which are available for training/testing systems depending on the track (closed vs. open track).
 
-| Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
-|----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
-| Arapaho (arp)  |  39,501     |  4,938    |    TBA     |                       |           | X  (eng)      |
-| Gitksan (git)  |  31         |  42       |    TBA     |         X             |           | X  (eng)      |
-| Lezgi   (lez)  |  701        |  88       |    TBA     |         X             |           | X  (eng)      |
-| Nyangbo (nyb)  |  2,100      |  263      |    TBA     |         X             |           |               |
-| Tsez    (bbo)  |  3,558      |  445      |    TBA     |         X             |           | X  (eng)      |
-| Uspanteko (usp)|  9,774      |  232      |    TBA     |         X             |    X      | X  (spa)      |
+| Language        | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
+| --------------- | ----------- | --------- | ---------- | --------------------- | --------- | ------------- |
+| Arapaho (arp)   | 39,501      | 4,938     | TBA        |                       |           | X (eng)       |
+| Gitksan (git)   | 31          | 42        | TBA        | X                     |           | X (eng)       |
+| Lezgi (lez)     | 701         | 88        | TBA        | X                     |           | X (eng)       |
+| Nyangbo (nyb)   | 2,100       | 263       | TBA        | X                     |           |               |
+| Tsez (bbo)      | 3,558       | 445       | TBA        | X                     |           | X (eng)       |
+| Uspanteko (usp) | 9,774       | 232       | TBA        | X                     | X         | X (spa)       |
 
 Surprise languages:
 
-| Language       | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
-|----------------|-------------|-----------|------------|-----------------------|-----------|---------------|
-| Natugu (ntu)   | 791         | 99        |    TBA     |         X             |           | X (eng)       |
+| Language     | Train sents | Dev sents | Test sents | Morph. Segmentations? | POS tags? | Translations? |
+| ------------ | ----------- | --------- | ---------- | --------------------- | --------- | ------------- |
+| Natugu (ntu) | 791         | 99        | TBA        | X                     |           | X (eng)       |
 
 Note, that translations are not provided for Nyangbo and the translations for Uspanteko are in Spanish, not English.
 
@@ -72,19 +75,19 @@ Individual glossed sentences are separated by empty lines.
 
 Each line identifies a different type of information:
 
-* `\t` orthographic representation
-* `\g` gold standard gloss
-* `\l` English (or Spanish) translation  
+- `\t` orthographic representation
+- `\g` gold standard gloss
+- `\l` English (or Spanish) translation
 
-We additionally provide system input files (e.g. `data/ddo-dev-track1-covered`), where the gold standard gloss is missing: 
+We additionally provide system input files (e.g. `data/ddo-dev-track1-covered`), where the gold standard gloss is missing:
 
 ```
 \t Retinäy debex mi yižo, retinäy q’ˤuyzix yegir.
-\g 
+\g
 \l If you want, marry her yourself, or if you want, send her to someone else.
 
 \t Esnazał xizaz ixiw raład boqno.
-\g 
+\g
 \l And a big sea formed behind the sisters.
 ```
 
@@ -106,12 +109,12 @@ Data sets for training (e.g. `data/Tsez/ddo-train-track2-uncovered`) and evaluat
 
 Each line identifies a different type of information:
 
-* `\t` orthographic representation
-* `\m` morphological segmentation
-* `\g` gold standard gloss
-* `\l` English (or Spanish) translation  
+- `\t` orthographic representation
+- `\m` morphological segmentation
+- `\g` gold standard gloss
+- `\l` English (or Spanish) translation
 
-For a subset of the languages, we will also provide an additional *POS annotation tier* (`\p`) for training purposes:
+For a subset of the languages, we will also provide an additional _POS annotation tier_ (`\p`) for training purposes:
 
 ```
 \t o sey xtok rixoqiil
@@ -120,24 +123,24 @@ For a subset of the languages, we will also provide an additional *POS annotatio
 \g o sea COM-buscar E3S-esposa
 \l O sea busca esposa.
 ```
- 
+
 We additionally provide system input files (e.g. `data/ddo-dev-track2-covered`), where the gold standard gloss is missing. These files contain morphological segmentations but no POS annotations:
 
 ```
 \t Retinäy debex mi yižo, retinäy q’ˤuyzix yegir.
 \m r-eti-näy mi-x mi y-iži-o r-eti-näy q’ˤuya-zo-x y-egir
-\g 
+\g
 \l If you want, marry her yourself, or if you want, send her to someone else.
 
 \t Esnazał xizaz ixiw raład boqno.
 \m esyu-bi-ł xizaz ixiw raład b-oq-n
-\g 
+\g
 \l And a big sea formed behind the sisters.
 ```
 
 ## Evaluation
 
-The main evaluation metric for the competition is token accuracy. Systems are evaluated w.r.t. generation of fully glossed tokens (*chiens -> dog-PL*). We will also separately evaluate glossing accuracy on bound morphemes like *PL* and free morphemes, i.e. stems, like *dog*.
+The main evaluation metric for the competition is token accuracy. Systems are evaluated w.r.t. generation of fully glossed tokens (_chiens -> dog-PL_). We will also separately evaluate glossing accuracy on bound morphemes like _PL_ and free morphemes, i.e. stems, like _dog_.
 
 ## Results
 
@@ -149,11 +152,11 @@ At the end of April, we will release the test input data in the following format
 
 ```
 \t ʕAt’idä nesiq kinaw raqru łinałäy esin.
-\g 
+\g
 \l Atid told about everything that had happened to him.
 
 \t Ražbadinez idu barun, xexbin yołƛin, žawab teƛno ečruni žek’a.
-\g 
+\g
 \l "His wife and children live at Razhbadin's home", answered the old man.
 ```
 
@@ -177,25 +180,25 @@ Please zip all of your submission files into an archive `<TEAM_NAME>_<N>.zip`, w
 
 ## Baseline
 
-In early March, we will release baseline systems and results for both tracks. For the closed track (track 1), we will provide a transformer-based neural baseline system. For the open track (track 2), we will provide CRF-based and neural transformer baseline systems.  
+In early March, we will release baseline systems and results for both tracks. For the closed track (track 1), we will provide a transformer-based neural baseline system. For the open track (track 2), we will provide CRF-based and neural transformer baseline systems.
 
 ## System Description Paper
 
-Please prepare a 4-8 page paper (excluding references and appendices) describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). In addition to the official shared task results for your system, you are welcome to include additional experimental results in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution. 
+Please prepare a 4-8 page paper (excluding references and appendices) describing your shared task submission. Please prepare your submission using the ACL 2023 Latex or Microsoft templates which can be found [here](https://2023.aclweb.org/calls/style_and_formatting/). In addition to the official shared task results for your system, you are welcome to include additional experimental results in the paper. We also encourage error analysis and ablation studies which can increase the value of your contribution.
 
-Submissions will be thoroughly reviewed. Note that there is no requirement for anonymity. We aim to accept all submissions and may provide coaching for writing of the final camera-ready submission if needed. 
+Submissions will be thoroughly reviewed. Note that there is no requirement for anonymity. We aim to accept all submissions and may provide coaching for writing of the final camera-ready submission if needed.
 
-Please submit your description papers to [Softconf](https://softconf.com/acl2023/sigmorphon/) by May 22, 2023, AoE.  
+Please submit your description papers to [Softconf](https://softconf.com/acl2023/sigmorphon/) by May 22, 2023, AoE.
 
 ## Organizers
 
-* Michael Ginn (University of Colorado)
-* Mans Hulden (University of Colorado)
-* Sarah Moeller (University of Florida)
-* Garrett Nicolai (University of British Columbia)
-* Alexis Palmer (University of Colorado)
-* Miikka Silfverberg (University of British Columbia)
-* Anna Stacey (University of British Columbia)
+- Michael Ginn (University of Colorado)
+- Mans Hulden (University of Colorado)
+- Sarah Moeller (University of Florida)
+- Garrett Nicolai (University of British Columbia)
+- Alexis Palmer (University of Colorado)
+- Miikka Silfverberg (University of British Columbia)
+- Anna Stacey (University of British Columbia)
 
 ## Contact
 
@@ -203,19 +206,19 @@ You can email the shared task organizers: `sigmorphonglossingst2023@gmail.com`
 
 Please also subscribe to the shared task newsgroup: https://groups.google.com/g/sigmorphonglossingst2023
 
-## Timeline 
+## Timeline
 
-* Feb 13: Release of training and development data for development languages
-* March 6: Release of official evaluation script, baseline systems and baseline results
-* ~~April 1~~ April 8: Release of surprise language training and development data
-* April 24: Release of test data for all languages
-* ~~April 24-26~~ April 24-May 3: Contestants run their systems on the test data
-* ~~April 27~~ May 4: Test predictions should be submitted to organizers
-* ~~May 1 May 7~~ May 8: Results are announced (Baseline results will be available on May 9)
-* ~~May 15~~ May 22: System description paper submission deadline
-* ~~May 15-25~~ May 22-June 1: Review
-* ~~May 25 June 1~~ June 2: Notification of paper acceptance
-* ~~May 30 June 7~~ June 8: Camera ready deadline for system description papers
+- Feb 13: Release of training and development data for development languages
+- March 6: Release of official evaluation script, baseline systems and baseline results
+- ~~April 1~~ April 8: Release of surprise language training and development data
+- April 24: Release of test data for all languages
+- ~~April 24-26~~ April 24-May 3: Contestants run their systems on the test data
+- ~~April 27~~ May 4: Test predictions should be submitted to organizers
+- ~~May 1 May 7~~ May 8: Results are announced (Baseline results will be available on May 9)
+- ~~May 15~~ May 22: System description paper submission deadline
+- ~~May 15-25~~ May 22-June 1: Review
+- ~~May 25 June 1~~ June 2: Notification of paper acceptance
+- ~~May 30 June 7~~ June 8: Camera ready deadline for system description papers
 
 ## Licensing
 
