@@ -1,5 +1,8 @@
 # SIGMORPHON 2023 Shared Task on Interlinear Glossing 
 
+> [!IMPORTANT]
+> The data in `data_v2` was de-duped from the original shared task data on **2026-05-16**, and should be used going forward. However, research prior to this change, such as the original shared task results, used the data in `data_v1`, and thus is not a one-to-one comparison.
+
 ## Overview
 
 Interlinear glossed text is a major annotated datatype produced in the course of linguistic fieldwork. For many low-resource languages, this is the only form of annotated data that is available for NLP work. Creation of glossed text is, however, a laborious endeavour and this shared task investigates methods to (fully or partially) automate the process. 
